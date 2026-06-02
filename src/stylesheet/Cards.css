@@ -1,0 +1,15 @@
+
+.bg-fact2{
+    background-image: url(../public/fabrica2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.bg-fact3{
+    background-image: url(../public/fabrica3.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+
+}
+
