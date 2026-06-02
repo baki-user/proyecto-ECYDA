@@ -23,7 +23,7 @@ export const Tienda = () => {
       <div className="cuadro p-5 d-flex justify-content-center h-100" width="100">
         <div className="container">
           <p className="tex position-relative m-5 p-5 m">Bienvenido a la tienda de ECYDA, tu espacio digital para descubrir productos unicos, seleccionados con oasion y pensados para ti. Aqui,
-            la calidad se encuentra con la comodidad de comprar desde donde estes. Explora, elige y deja que lo mejor llegue a tu puerta. </p>
+            la calidad se encuentra con la comodidad de comprar desde donde estes. Explora, elige y deja que lo mejor llegue a tu puerta. k </p>
         </div>
       </div>
       <section className="tarjetas container flex-column d-flex justify-content-center" >
