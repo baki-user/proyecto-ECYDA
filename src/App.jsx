@@ -15,7 +15,7 @@ import { Footer } from "./components/Footer.jsx"
 export const App = () => {
     return(
         <>
-        <Header
+        {/* <Header
          headerColor="bg-green"
          header2Color="bg-lightColor"
         />
@@ -43,8 +43,8 @@ export const App = () => {
          />
         <Footer
          headerColor="bg-green"
-         /> 
-        {/* <Header2
+         />  */}
+        <Header2
          headerColor="bg-green"
         />
         <Meaning
@@ -60,7 +60,7 @@ export const App = () => {
          />
         <Footer
          headerColor="bg-green"
-         /> */}
+         />
         </>
     )
 }
