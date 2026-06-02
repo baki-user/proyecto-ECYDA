@@ -1,4 +1,4 @@
-import "../stylesheet/Header.css"
+import "./Header.css"
 
 export const Header2 = ({ headerColor }) => {
   return (
