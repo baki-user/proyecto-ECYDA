@@ -1,8 +1,8 @@
-import "../productos.css"
+import "../components/productos.css"
 import { Footer } from "../components/Footer"
 import { Header } from "../components/Header"
 
-export const Tienda = () => {
+export const Productos = () => {
   return (
     <>
       <Header

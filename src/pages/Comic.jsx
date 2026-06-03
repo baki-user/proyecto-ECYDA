@@ -1,10 +1,11 @@
-import "./Comic.css"
+import "../components/comic.css"
+import { Header } from "../components/Header";
 
 export const Comic = ({ headerColor, header2Color, edificios }) => {
     return (
         <div className="Header ">
 
-            <nav className={`navbar navbar-expand-lg ${headerColor}`} data-bs-theme="dark">
+            {/* <nav className={`navbar navbar-expand-lg ${headerColor}`} data-bs-theme="dark">
                 <div className="container">
                     <a className="navbar-brand" href="#">
                         <img src="./public/logo-blanco.png" alt="Bootstrap" width="80" height="80" />
@@ -29,7 +30,12 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
                         </ul>
                     </div>
                 </div>
-            </nav>
+            </nav> */}
+
+            <Header
+                            headerColor="bg-green"
+                            header2Color="bg-lightColor"
+                        />
 
 
             <div>

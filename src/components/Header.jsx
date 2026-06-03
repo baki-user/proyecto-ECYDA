@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./Header.css"
 
 export const Header = ({ headerColor, header2Color }) => {
@@ -15,16 +16,16 @@ export const Header = ({ headerColor, header2Color }) => {
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav ms-auto">
                                 <li className="nav-item navbar-light ">
-                                    <a className="nav-link" href="#">Acerca de</a>
+                                    <Link className="nav-link" to="/aboutus" >Acerca de</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Comic interactivo</a>
+                                    <Link className="nav-link" to="/comic">Comic interactivo</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Tienda</a>
+                                    <Link className="nav-link" to="/productos">Tienda</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Quienes somos</a>
+                                    <Link className="nav-link" to="/somos">Quienes somos</Link>
                                 </li>
                             </ul>
                         </div>
