@@ -94,7 +94,7 @@ export const Comic = ({ headerColor, header2Color, edificios }) => {
 
             <div className="container mt-4">
                 <div className="card-body text-center " >
-                    <p>PERSONAJES.</p>
+                    <p>PERSONAJES.k</p>
                 </div>
                 <div className="row justify-content-center gap-4">
 
